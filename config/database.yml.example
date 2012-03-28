@@ -1,0 +1,32 @@
+production:
+  adapter: postgresql
+  encoding: utf8
+  database: bbr
+  username: max
+  password: max
+  timeout: 5000
+  pool: 5
+  port: 5433
+
+development:
+  adapter: postgresql
+  encoding: utf8
+  database: bbr_dev
+  username: max
+  password: max
+  timeout: 5000
+  pool: 5
+  port: 5433
+
+
+test:
+  adapter: postgresql
+  encoding: utf8
+  database: bbr_test
+  username: max
+  password: max
+  timeout: 5000
+  pool: 5
+  port: 5433
+
+
