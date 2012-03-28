@@ -9,7 +9,8 @@ end
 
 gem "pg"
 gem 'devise'
-
+gem 'forem', :git => "git://github.com/radar/forem.git"
+gem 'kaminari'
 gem 'jquery-rails'
 
 # Deploy with Capistrano
