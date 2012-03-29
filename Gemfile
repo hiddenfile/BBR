@@ -12,6 +12,7 @@ gem 'devise'
 gem 'forem', :git => "git://github.com/radar/forem.git"
 gem 'kaminari'
 gem 'jquery-rails'
+gem 'haml'
 
 # Deploy with Capistrano
 # gem 'capistrano'
